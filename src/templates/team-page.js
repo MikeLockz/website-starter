@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Pricing from '../components/Pricing'
 
-export const PricingPageTemplate = ({
+export const TeamPageTemplate = ({
   title,
   meta_title,
   meta_description,
@@ -49,7 +49,7 @@ export const PricingPageTemplate = ({
   </div>
 )
 
-PricingPageTemplate.propTypes = {
+TeamPageTemplate.propTypes = {
   title: PropTypes.string,
   meta_title: PropTypes.string,
   meta_description: PropTypes.string,
@@ -60,11 +60,11 @@ PricingPageTemplate.propTypes = {
   }),
 }
 
-const PricingPage = ({data}) => {
+const TeamPage = ({data}) => {
   const {frontmatter} = data.markdownRemark
 
   return (
-    <PricingPageTemplate
+    <TeamPageTemplate
       title={frontmatter.title}
       meta_title={frontmatter.meta_title}
       meta_description={frontmatter.meta_description}
@@ -73,7 +73,7 @@ const PricingPage = ({data}) => {
   )
 }
 
-PricingPage.propTypes = {
+TeamPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -81,10 +81,10 @@ PricingPage.propTypes = {
   }),
 }
 
-export default PricingPage
+export default TeamPage
 
-export const pricingPageQuery = graphql`
-  query PricingPage($id: String!) {
+export const teamPageQuery = graphql`
+  query TeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title

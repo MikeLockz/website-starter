@@ -19,25 +19,18 @@ const NavBar = () => {
           <Link className='navbar-item' to='/design-system'>
                         Design System
           </Link>
-          <Link className='navbar-item' to='/about'>
-                        About
+          <Link className='navbar-item' to='/join-us'>
+                        Join Us
           </Link>
-          <Link className='navbar-item' to='/blog'>
-                        Blog
+          <Link className='navbar-item' to='/design-thinking'>
+                        Design Thinking
           </Link>
-        </div>
-        <div className='navbar-end'>
-          <div className='navbar-item'>
-            <div className='field is-grouped'>
-              <p className='control'>
-                <Link
-                  className='button is-primary is-outlined'
-                  to='/contact'>
-                                    Contact Us
-                </Link>
-              </p>
-            </div>
-          </div>
+          <Link className='navbar-item' to='/research'>
+                        Research
+          </Link>
+          <Link className='navbar-item' to='/team'>
+                        Team
+          </Link>
         </div>
       </div>
     </nav>

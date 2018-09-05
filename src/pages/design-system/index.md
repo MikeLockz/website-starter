@@ -1,7 +1,7 @@
 ---
-templateKey: about-page
-title: About Us
-meta_title: About Us | Website Starter
+templateKey: design-system-page
+title: Design System
+meta_title: Design System | Website Starter
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
