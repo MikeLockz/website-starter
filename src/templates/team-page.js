@@ -68,7 +68,7 @@ const TeamPage = ({data}) => {
       title={frontmatter.title}
       meta_title={frontmatter.meta_title}
       meta_description={frontmatter.meta_description}
-      pricing={frontmatter.pricing}
+      pricing={frontmatter.pricin}
     />
   )
 }
@@ -90,7 +90,7 @@ export const teamPageQuery = graphql`
         title
         meta_title
         meta_description
-        pricing {
+        pricin {
           heading
           description
           plans {

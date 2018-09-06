@@ -7,7 +7,7 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-pricing:
+pricin:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo,
     non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet
