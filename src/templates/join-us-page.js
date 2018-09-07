@@ -73,7 +73,7 @@ export const JoinUsPageTemplate = ({
                       Phasellus nec iaculis mauris. <a>@website</a>.
                       <a href='#'>#css</a> <a href='#'>#responsive</a>
                       <br />
-                      <time datetime='2016-1-1'>11:09 PM - 1 Jan 2018</time>
+                      <time>11:09 PM - 1 Jan 2018</time>
                     </div>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ export const JoinUsPageTemplate = ({
                     {jobs.heading}
                   </h2>
                   <p className='is-size-5'>{jobs.description}</p>
-                  <OpenJob data={jobs.plans} />
+                  <OpenJob data={jobs.open_jobs} />
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ JoinUsPageTemplate.propTypes = {
   jobs: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
-    plans: PropTypes.array,
+    open_jobs: PropTypes.array,
   }),
 }
 
@@ -135,7 +135,7 @@ const JoinUsPage = ({data}) => {
       title={frontmatter.title}
       meta_title={frontmatter.meta_title}
       meta_description={frontmatter.meta_description}
-      jobs={frontmatter.pricing}
+      jobs={frontmatter.jobs}
       contentComponent={HTMLContent}
       content={post.html}
     />
@@ -160,14 +160,15 @@ export const joinUsPageQuery = graphql`
         title
         meta_title
         meta_description
-        pricing {
+        jobs {
           heading
           description
-          plans {
+          open_jobs {
             description
-            items
-            plan
-            price
+            role
+            location
+            unit
+            job_id
           }
         }
       }
