@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Pricing from '../components/Pricing'
-import OpenJob from '../components/OpenJob'
 import Content, {HTMLContent} from '../components/Content'
+import OpenJob from '../components/OpenJob'
 
 export const JoinUsPageTemplate = ({
   title,
@@ -11,7 +10,7 @@ export const JoinUsPageTemplate = ({
   meta_description,
   jobs,
   content,
-  contentComponent
+  contentComponent,
 }) => {
   const PageContent = contentComponent || Content
 

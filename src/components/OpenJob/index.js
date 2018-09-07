@@ -30,23 +30,21 @@ const OpenJob = ({ data }) => (
               </div>
 
               <div className='level is-mobile'>
-
-                  <a className='level-item' aria-label='reply'>
-                    <span className='icon is-small'>
-                      <i className='fa fa-reply' aria-hidden='true'></i>
-                    </span>
-                  </a>
-                  <a className='level-item' aria-label='retweet'>
-                    <span className='icon is-small'>
-                      <i className='fa fa-retweet' aria-hidden='true'></i>
-                    </span>
-                  </a>
-                  <a className='level-item' aria-label='like'>
-                    <span className='icon is-small'>
-                      <Icon hasTextColor="danger" className="fa fa-heart" />
-                    </span>
-                  </a>
-
+                <a className='level-item' aria-label='reply'>
+                  <span className='icon is-small'>
+                    <i className='fa fa-reply' aria-hidden='true'></i>
+                  </span>
+                </a>
+                <a className='level-item' aria-label='retweet'>
+                  <span className='icon is-small'>
+                    <i className='fa fa-retweet' aria-hidden='true'></i>
+                  </span>
+                </a>
+                <a className='level-item' aria-label='like'>
+                  <span className='icon is-small'>
+                    <Icon hasTextColor="danger" className="fa fa-heart" />
+                  </span>
+                </a>
               </div>
 
             </div>

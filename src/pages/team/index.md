@@ -7,33 +7,43 @@ meta_description: >-
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
   venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis
   consectetur purus sit amet fermentum.
-pricin:
+video_section:
+  heading: Curabitur ligula tortor
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porta justo justo,
     non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet
     mattis leo. Vivamus aliquam rhoncus tortor vitae convallis. Aliquam non dui nibh. Nam
     a velit at enim sagittis pellentesque.
-  heading: Monthly subscriptions
-  plans:
+  videos:
     - description: Nulla faucibus, leo a condimentum aliquam, libero leo vehicula arcu
-      items:
-        - Lorem ipsum dolor sit amet
-        - consectetur adipiscing elit
-        - Nunc finibus sem a sem ultrices
-      plan: Pro
-      price: '50'
-    - description: Mauris vitae dolor eu mauris malesuada cursus.
-      items:
-        - eget sagittis magna tempor
-        - Quisque pulvinar lorem molestie
-        - Proin at sagittis ex
-      plan: Enterprise
-      price: '80'
+      source: https://www.youtube.com/embed/Qo3OM5sPUPM
     - description: Praesent elit lectus, iaculis vel odio vitae, bibendum auctor lacus.
-      items:
-        - Pellentesque luctus neque id mauris accumsan
-        - nec imperdiet justo eleifend
-        - Sed eget ornare orci
-      plan: Custom
-      price: '??'
+      source: https://www.youtube.com/embed/Qo3OM5sPUPM
+    - description: Donec porta justo justo,non semper odio cursus
+      source: https://www.youtube.com/embed/Qo3OM5sPUPM
+team:
+  members:
+    - name: Bob
+      spoke: spoke/project
+      bio: >-
+        Donec porta justo justo, non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet mattis leo.
+      twitter: '@bobtwitter'
+      tags:
+        - one
+    - name: Sally
+      spoke: spoke/project
+      bio: >-
+        Donec porta justo justo, non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet mattis leo.
+      twitter: '@sallytwitter'
+      medium: '@sallymedium'
+      tags:
+        - one
+        - two
+    - name: Roger
+      spoke: spoke/project
+      bio: >-
+        Donec porta justo justo, non semper odio cursus in. Curabitur ligula tortor, tristique non odio nec, imperdiet mattis leo.
+      medium: '@rogermedium'
+      tags:
+        - three
 ---
